@@ -1,9 +1,9 @@
 # Berita COVID-19 Indonesia
 Sumber : https://covid19.go.id/p/berita
 
-Data utama : [data.csv](.\data.csv)
+Data utama : [data.csv](/data.csv)
 
-snapshot(raw) : [snapshot.json](.\snapshot.js) --> pakai yg ini kalau mau preprocessing sendiri
+snapshot(raw) : [snapshot.json](/snapshot.js) --> pakai yg ini kalau mau preprocessing sendiri
 
 ## Notes 
 - Cleaning yg dilakukan disini
