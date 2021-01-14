@@ -1,6 +1,11 @@
 # Berita COVID-19 Indonesia
 Sumber : https://covid19.go.id/p/berita
 
-[data.csv](.\data.csv)
+Data utama : [data.csv](.\data.csv)
+snapshot(raw) : [snapshot.json](.\snapshot.js) --> pakai yg ini kalau mau preprocessing sendiri
 
-Notes : Beberapa text yang diklasifikasi hoax ada tanda petik "{TEXT}", jadi mungkin bisa dipreprocessing terlebih dahulu.
+## Notes 
+- Cleaning yg dilakukan disini
+    - Menghapus substring `"[SALAH]"` dan menghapus quotes pada judul tersebut
+    - Menghilangkan data duplikat dan reset index
+- Mungkin masih ada whitespace pada datanya, bisa dibersihkan sendiri
