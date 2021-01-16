@@ -7,7 +7,7 @@ Sumber (diambil pada tgl 16-Januari-2021) :
 
 Data utama (terbaru) : [data-v2.csv](/data-v2.csv)
 
-Data lama : [data.csv](/data.csv)
+Data lama : [old.csv](/old.csv)
 
 ## Notes 
 - Urutan data telah diacak, tidak sesuai waktu artikel dibuat
