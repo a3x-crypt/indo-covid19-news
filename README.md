@@ -1,13 +1,16 @@
 # Berita COVID-19 Indonesia
-Sumber : https://covid19.go.id/p/berita
+Sumber (diambil pada tgl 16-Januari-2021) : 
+- https://covid19.go.id/p/berita
+- https://covid19.go.id/p/hoax-buster
 
-Data utama : [data.csv](/data.csv)
+## Datasets
 
-snapshot(raw) : [snapshot.json](/snapshot.json) --> pakai yg ini kalau mau preprocessing sendiri
+Data utama (terbaru) : [data-v2.csv](/data-v2.csv)
+
+Data lama : [data.csv](/data.csv)
 
 ## Notes 
+- Urutan data telah diacak, tidak sesuai waktu artikel dibuat
 - Cleaning yg dilakukan disini
     - Menghapus substring `"[SALAH]"` dan menghapus quotes pada judul tersebut
-    - Menghilangkan data duplikat dan reset index
-- Mungkin masih ada whitespace pada datanya, bisa dibersihkan sendiri
-
+    - Menghilangkan data duplikat
